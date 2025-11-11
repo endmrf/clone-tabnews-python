@@ -5,5 +5,5 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-echo "Coletando arquivos estáticos..."
-python3 clone_tabnews_python/manage.py collectstatic --noinput
+# echo "Coletando arquivos estáticos..."
+# python3 clone_tabnews_python/manage.py collectstatic --noinput
